@@ -121,8 +121,8 @@ $(document).ready(function () {
       return;
     }
     // Funciones que permiten usar el app local y con api
-    //makeRequest(city);
-    getLocalData();
+    makeRequest(city);
+    //getLocalData();
   }
 
   $("#btn-search").click(function () {
@@ -144,3 +144,4 @@ $(document).ready(function () {
     }s
   });
 });
+
